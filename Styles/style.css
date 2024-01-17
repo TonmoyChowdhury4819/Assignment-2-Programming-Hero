@@ -1,0 +1,1256 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+ul, li {
+	list-style: disc;
+}
+input {
+	border: none;
+}
+body {
+  width: 152rem;
+}
+
+
+  .landing-page-design {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .main-section {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 5rem 12.7rem 10rem 13.5rem;
+
+    /* nav start */
+    .nav-design {
+      margin-bottom: 4.8rem;
+      width: 100%;
+      height: 4.8rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .website-name {
+        margin-right: 40.4366rem;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        flex-shrink: 0;
+
+        .website-icon {
+          vertical-align: top;
+          flex-shrink: 0;
+          margin-right: 1.6626rem;
+          width: 5.6008rem;
+          height: 4.8rem;
+          object-fit: contain;
+        }
+        .mantra-travel {
+          white-space: nowrap;
+          align-items: baseline;
+          font-size: 3.6rem;
+          line-height: 1.255;
+          color: #121218;
+          display: flex;
+          flex-shrink: 0;
+          margin-bottom: 0rem;
+          font-weight: 800;
+          font-family: Mulish, 'Source Sans Pro';
+
+          .mantra-travel-text1 {
+            font-size: 3.6rem;
+            font-weight: 800;
+            line-height: 1.255;
+            color: #121218;
+            font-family: Mulish, 'Source Sans Pro';
+          }
+          .mantra-travel-text2 {
+            font-size: 3.6rem;
+            font-weight: 800;
+            line-height: 1.255;
+            color: #ff5400;
+            font-family: Mulish, 'Source Sans Pro';
+          }
+        }
+      }
+      .nav-text {
+        margin: 1.3rem 0rem 1.2rem 0rem;
+        height: calc(100% - 2.5rem);
+        display: flex;
+        column-gap: 4.4rem;
+        align-items: center;
+        flex-shrink: 0;
+
+        .home {
+          line-height: 1.255;
+          color: #ff5400;
+          font-family: Mulish, 'Source Sans Pro';
+          white-space: nowrap;
+          flex-shrink: 0;
+          text-align: center;
+          font-size: 1.8rem;
+          font-weight: 700;
+        }
+        .options {
+          flex-shrink: 0;
+          text-align: center;
+          font-size: 1.8rem;
+          font-weight: 400;
+          line-height: 1.255;
+          color: #424247;
+          font-family: Mulish, 'Source Sans Pro';
+          white-space: nowrap;
+        }
+      }
+    }
+    /* nav end */
+
+    /* banner 1 start */
+    .banner-1 {
+      margin: 0rem 0.8rem 10rem 0rem;
+      box-sizing: border-box;
+      padding: 10.6rem 18.5rem;
+      width: 117rem;
+      height: 50rem;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 1.6rem;
+      background: linear-gradient(180deg, rgba(19, 19, 24, 0.8000000119) -0%, rgba(19, 19, 24, 0.8000000119) 100%);
+      background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+      flex-shrink: 0;
+
+      .banner-1-description {
+        border-radius: 0.8rem;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        .banner-1-text {
+          width: calc(100% - 15.3rem);
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 0;
+          margin: 0rem 7.65rem 4.8rem 7.65rem;
+
+          .explore-your-travel {
+            margin-bottom: 2.3rem;
+            font-size: 6.4rem;
+            font-weight: 800;
+            line-height: 1.255;
+            color: #ffffff;
+            font-family: Mulish, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .explore-your-travel-description {
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.625;
+            color: #ffffff;
+            font-family: Mulish, 'Source Sans Pro';
+            flex-shrink: 0;
+            max-width: 64.7rem;
+          }
+        }
+        .form-1 {
+          width: 100%;
+          height: 8.4rem;
+          background-color: rgba(255, 255, 255, 0.3000000119);
+          flex-shrink: 0;
+          box-sizing: border-box;
+          padding: 1.6rem;
+          align-items: center;
+          border-radius: 0.8rem;
+          display: flex;
+          column-gap: 2.4rem;
+
+          .input-1 {
+            box-sizing: border-box;
+            width: 17.4rem;
+            white-space: nowrap;
+            background-color: #ffffff;
+            padding: 1.6rem 1.6rem 1.5rem 1.6rem;
+            height: 100%;
+            font-size: 1.6rem;
+            font-family: Mulish, 'Source Sans Pro';
+            border-radius: 0.8rem;
+            border: none;
+            flex-shrink: 0;
+            text-align: left;
+            font-weight: 400;
+            line-height: 1.255;
+            color: rgba(19, 19, 24, 0.5);
+          }   
+        }
+     }
+        .button-1 {
+            border-radius: 0.8rem;
+            flex-shrink: 0;
+            border: none;
+            box-sizing: border-box;
+            padding: 1.4rem 3.4rem 1.4rem 3.5rem;
+            width: 17.4rem;
+            height: 100%;
+            background-color: #ff5400;
+
+            .button-1-txt {
+              box-sizing: border-box;
+              padding: 0.2rem 0rem 0.1rem 0.3rem;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+
+              .button-icon {
+                object-fit: contain;
+                vertical-align: top;
+                flex-shrink: 0;
+                margin: 0rem 1.1rem 0.1rem 0rem;
+                width: 1.8001rem;
+                height: 1.8001rem;
+              }
+              .find-now {
+                line-height: 1.255;
+                color: #ffffff;
+                font-family: Mulish, 'Source Sans Pro';
+                white-space: nowrap;
+                flex-shrink: 0;
+                text-align: center;
+                font-size: 1.6rem;
+                font-weight: 700;
+              }
+            }
+      }
+      
+    }
+    /* banner 1 end */
+
+    /* banner 2 start */
+    .banner-2 {
+      margin: 0rem 0.8rem 10rem 0rem;
+      width: calc(100% - 0.8rem);
+      height: 55rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .banner-2-left {
+        margin-right: 7.3rem;
+        width: 55.7rem;
+        height: 100%;
+        flex-shrink: 0;
+
+        .banner-2-text {
+          margin-bottom: 3.2rem;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+
+          .banner-2-text-title {
+            white-space: nowrap;
+            font-size: 4rem;
+            line-height: 1.255;
+            color: #131318;
+            font-weight: 800;
+            font-family: Mulish, 'Source Sans Pro';
+            flex-shrink: 0;
+            margin-bottom: 2.3rem;
+            width: 100%;
+            text-align: center;
+          }
+          .banner-2-text-description {
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.625;
+            color: rgba(19, 19, 24, 0.6999999881);
+            font-family: Mulish, 'Source Sans Pro';
+            flex-shrink: 0;
+            margin-bottom: 2.4rem;
+            max-width: 55.7rem;
+          }
+          .list-item {
+            row-gap: 1.6rem;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            margin-bottom: 2.4rem;
+            font-family: Mulish, 'Source Sans Pro';
+            flex-shrink: 0;
+            max-width: 52.3rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.625;
+            color: rgba(19, 19, 24, 0.6999999881);
+          }
+        }
+        .button-2 {
+          align-items: center;
+          background-color: #ff5400;
+          height: 5.2rem;
+          display: flex;
+          white-space: nowrap;
+          color: #ffffff;
+          font-family: Mulish, 'Source Sans Pro';
+          width: 17.4rem;
+          line-height: 1.255;
+          font-weight: 800;
+          justify-content: center;
+          border-radius: 0.8rem;
+          border: none;
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+      .rectangle-4 {
+        flex-shrink: 0;
+        width: 54rem;
+        height: 55rem;
+        object-fit: cover;
+        vertical-align: top;
+        border-radius: 1.6rem;
+      }
+    }
+    /* banner 2 end */
+
+    /* Part 3 start */
+    .section {
+      flex-direction: column;
+      flex-shrink: 0;
+      margin: 0rem 28.65rem 4.8rem 27.75rem;
+      width: calc(100% - 56.4rem);
+      align-items: center;
+      display: flex;
+
+      .title {
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin: 0rem 0.1rem 2.3rem 0rem;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 800;
+        color: #131318;
+      }
+      .body {
+        font-weight: 400;
+        line-height: 1.625;
+        color: rgba(19, 19, 24, 0.6999999881);
+        font-family: Mulish, 'Source Sans Pro';
+        flex-shrink: 0;
+        max-width: 61.4rem;
+        text-align: center;
+        font-size: 1.6rem;
+      }
+    }
+
+    .destination-sec1 {
+      margin: 0rem 0.8rem 2.4rem 0rem;
+      width: calc(100% - 0.8rem);
+      height: 30rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .maldives {
+        background-position: center;
+        background-image: url('../Images/Rectangle\ 5.png');
+        text-align: center;
+        font-size: 2.8rem;
+        white-space: nowrap;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        border-radius: 1.6rem;
+        flex-shrink: 0;
+        line-height: 1.255;
+        color: #ffffff;
+        font-family: Mulish, 'Source Sans Pro';
+        background-size: 100% 100%;
+        margin-right: 2.4rem;
+        width: 57.3rem;
+        height: 100%;
+        font-weight: 800;
+        display: flex;
+        background-color: rgba(19, 19, 24, 0.200000003);
+      }
+      .indonesia {
+        align-items: center;
+        background-repeat: no-repeat;
+        background-image: url('../Images/Rectangle\ 8.png');
+        flex-shrink: 0;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        font-family: Mulish, 'Source Sans Pro';
+        display: flex;
+        font-weight: 800;
+        line-height: 1.255;
+        color: #ffffff;
+        white-space: nowrap;
+        width: 57.3rem;
+        font-size: 2.8rem;
+      }
+    }
+    .destination-sec2 {
+      margin: 0rem 0.8rem 2.4rem 0rem;
+      height: 28.6rem;
+      display: flex;
+      column-gap: 2.4rem;
+      align-items: center;
+      flex-shrink: 0;
+
+      .sri-lanka {
+        text-align: center;
+        color: #ffffff;
+        white-space: nowrap;
+        justify-content: center;
+        background-color: rgba(19, 19, 24, 0.200000003);
+        font-family: Mulish, 'Source Sans Pro';
+        display: flex;
+        background-size: 100% 100%;
+        background-position: center;
+        background-image: url('../Images/Rectangle\ 6.png');
+        font-weight: 800;
+        background-repeat: no-repeat;
+        flex-shrink: 0;
+        width: 37.4rem;
+        height: 100%;
+        font-size: 2.8rem;
+        line-height: 1.255;
+        align-items: center;
+        border-radius: 1.6rem;
+      }
+      .north-america {
+        text-align: center;
+        white-space: nowrap;
+        justify-content: center;
+        width: 47.4rem;
+        border-radius: 1.6rem;
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+        display: flex;
+        background-color: rgba(19, 19, 24, 0.200000003);
+        background-position: center;
+        height: 100%;
+        font-weight: 800;
+        color: #ffffff;
+        align-items: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url('../Images/Rectangle\ 7.png');
+        flex-shrink: 0;
+        font-size: 2.8rem;
+      }
+      .kashmir {
+        width: 27.4rem;
+        height: 100%;
+        color: #ffffff;
+        font-family: Mulish, 'Source Sans Pro';
+        background-position: center;
+        font-size: 2.8rem;
+        font-weight: 800;
+        line-height: 1.255;
+        display: flex;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url('../Images/Rectangle\ 9.png');
+        white-space: nowrap;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(19, 19, 24, 0.200000003);
+        text-align: center;
+        border-radius: 1.6rem;
+        flex-shrink: 0;
+      }
+    }
+    .destination-sec3 {
+      margin: 0rem 0.8rem 10rem 0rem;
+      width: calc(100% - 0.8rem);
+      height: 30rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .bangladesh {
+        font-family: Mulish, 'Source Sans Pro';
+        background-position: center;
+        background-image: url('../Images/Rectangle\ 11.png');
+        flex-shrink: 0;
+        width: 47.3rem;
+        text-align: center;
+        line-height: 1.255;
+        background-size: 100% 100%;
+        margin-right: 2.4rem;
+        font-weight: 800;
+        display: flex;
+        border-radius: 1.6rem;
+        font-size: 2.8rem;
+        color: #ffffff;
+        white-space: nowrap;
+        background-color: rgba(19, 19, 24, 0.200000003);
+        background-repeat: no-repeat;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+      .bandarban {
+        font-family: Mulish, 'Source Sans Pro';
+        align-items: center;
+        flex-shrink: 0;
+        display: flex;
+        background-color: rgba(19, 19, 24, 0.200000003);
+        background-repeat: no-repeat;
+        background-image: url('../Images/Rectangle\ 10.png');
+        border-radius: 1.6rem;
+        text-align: center;
+        color: #ffffff;
+        justify-content: center;
+        background-size: 100% 100%;
+        width: 67.3rem;
+        height: 100%;
+        font-size: 2.8rem;
+        font-weight: 800;
+        line-height: 1.255;
+        white-space: nowrap;
+        background-position: center;
+      }
+    }
+    /* part 3 end */
+
+    /* Part 4 start */
+    .section-4 {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      margin: 0rem 28.65rem 4.8rem 27.75rem;
+      width: calc(100% - 56.4rem);
+
+      .title {
+        line-height: 1.255;
+        font-family: Mulish, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+        margin: 0rem 0.1rem 2.3rem 0rem;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 800;
+        color: #131318;
+      }
+      .body {
+        font-weight: 400;
+        line-height: 1.625;
+        color: rgba(19, 19, 24, 0.6999999881);
+        font-family: Mulish, 'Source Sans Pro';
+        flex-shrink: 0;
+        max-width: 61.4rem;
+        text-align: center;
+        font-size: 1.6rem;
+      }
+    }
+    .choose-sec1 {
+      margin: 0rem 0.8rem 2.4rem 0rem;
+      width: calc(100% - 0.8rem);
+      height: 28.4rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .type-1 {
+        margin-right: 2.4rem;
+        box-sizing: border-box;
+        padding: 3.2rem 5.5rem 3.2rem 3.2rem;
+        width: 57.3rem;
+        background-color: rgba(251, 181, 99, 0.0500000007);
+        border-radius: 1.6rem;
+        flex-shrink: 0;
+        height: 100%;
+        border: solid 0.1rem rgba(251, 181, 99, 0.200000003);
+
+        .block-1 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+
+          .hotel-img {
+            height: 6.4rem;
+            object-fit: contain;
+            vertical-align: top;
+            flex-shrink: 0;
+            margin-bottom: 3.2rem;
+            width: 6.4rem;
+          }
+          .hotel {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+
+            .hotel-title {
+              line-height: 1.255;
+              white-space: nowrap;
+              flex-shrink: 0;
+              width: 100%;
+              text-align: left;
+              font-weight: 800;
+              font-family: Mulish, 'Source Sans Pro';
+              margin-bottom: 1.5rem;
+              font-size: 2.4rem;
+              color: #131318;
+            }
+            .hotel-description {
+              font-size: 1.6rem;
+              font-weight: 400;
+              line-height: 1.625;
+              color: #5a5a5d;
+              font-family: Mulish, 'Source Sans Pro';
+              flex-shrink: 0;
+              max-width: 48.6rem;
+            }
+          }
+        }
+      }
+      .type-2 {
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding: 3.2rem 5.5rem 3.2rem 3.2rem;
+        width: 57.3rem;
+        height: 100%;
+        border: solid 0.1rem rgba(41, 206, 246, 0.200000003);
+        background-color: rgba(41, 206, 246, 0.0500000007);
+        border-radius: 1.6rem;
+
+        .block-2 {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+
+          .service-img {
+            margin-bottom: 3.2rem;
+            width: 6.4rem;
+            height: 6.4rem;
+            object-fit: contain;
+            vertical-align: top;
+            flex-shrink: 0;
+          }
+          .service {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+
+            .service-title {
+              line-height: 1.255;
+              color: #131318;
+              font-family: Mulish, 'Source Sans Pro';
+              white-space: nowrap;
+              flex-shrink: 0;
+              margin-bottom: 1.5rem;
+              font-size: 2.4rem;
+              font-weight: 800;
+            }
+            .service-description {
+              flex-shrink: 0;
+              max-width: 48.6rem;
+              font-size: 1.6rem;
+              font-weight: 400;
+              line-height: 1.625;
+              color: #5a5a5d;
+              font-family: Mulish, 'Source Sans Pro';
+            }
+          }
+        }
+      }
+    }
+    .choose-sec2 {
+      box-sizing: border-box;
+      width: calc(100% - 60.5rem);
+      border: solid 0.1rem rgba(233, 68, 68, 0.200000003);
+      background-color: rgba(233, 68, 68, 0.0500000007);
+      margin: 0rem 30.7rem 10rem 29.8rem;
+      height: 28.4rem;
+      border-radius: 1.6rem;
+      flex-shrink: 0;
+      padding: 3.2rem 5.5rem 3.2rem 3.2rem;
+
+      .block-3 {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .discount-img {
+          flex-shrink: 0;
+          margin-bottom: 3.2rem;
+          width: 6.4rem;
+          height: 6.4rem;
+          object-fit: contain;
+          vertical-align: top;
+        }
+        .discount {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 0;
+
+          .discount-title {
+            font-weight: 800;
+            line-height: 1.255;
+            color: #131318;
+            font-family: Mulish, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-bottom: 1.5rem;
+            font-size: 2.4rem;
+          }
+          .discount-description {
+            max-width: 48.6rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.625;
+            color: #5a5a5d;
+            font-family: Mulish, 'Source Sans Pro';
+            flex-shrink: 0;
+          }
+        }
+      }
+    }
+    /* Part 4 End */
+
+    /* Part 5 Start */
+    .section-5 {
+      width: calc(100% - 56.4rem);
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      margin: 0rem 28.65rem 4.8rem 27.75rem;
+
+      .title {
+        font-weight: 800;
+        line-height: 1.255;
+        white-space: nowrap;
+        flex-shrink: 0;
+        font-family: Mulish, 'Source Sans Pro';
+        margin-bottom: 2.3rem;
+        text-align: center;
+        font-size: 4rem;
+        color: #131318;
+      }
+      .body {
+        max-width: 61.4rem;
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1.625;
+        color: rgba(19, 19, 24, 0.6999999881);
+        font-family: Mulish, 'Source Sans Pro';
+        flex-shrink: 0;
+      }
+    }
+    .card-1 {
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      width: 117rem;
+      height: 50rem;
+      background-position: center;
+      background-image: url('../Images/Group\ 39.png');
+      border-radius: 1.6rem;
+      margin: 0rem 0.8rem 2.4rem 0rem;
+      box-sizing: border-box;
+      padding: 5.6rem 5.6rem 5.5rem 53.5rem;
+
+      .inner-banner-1 {
+        backdrop-filter: blur(0.25rem);
+        background-color: rgba(255, 255, 255, 0.8000000119);
+        border-radius: 1.6rem;
+        box-sizing: border-box;
+        padding: 5rem 7.7rem 5rem 5rem;
+        width: 100%;
+        height: 100%;
+        border: solid 0.2rem #ffffff;
+
+        .inner-banner-1a {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+
+          .card-1-menu {
+            flex-shrink: 0;
+            margin-bottom: 2.4rem;
+            height: 2.4rem;
+            display: flex;
+            column-gap: 2.4rem;
+            align-items: center;
+
+            .card-1-menu-sec-1 {
+              box-sizing: border-box;
+              padding: 0.2rem 0rem 0.1rem 0.225rem;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              flex-shrink: 0;
+
+              .clock {
+                width: 1.95rem;
+                height: 1.95rem;
+                object-fit: contain;
+                vertical-align: top;
+                flex-shrink: 0;
+                margin: 0rem 1.025rem 0.1rem 0rem;
+              }
+              .time {
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.255;
+                color: #5a5a5d;
+                font-family: Mulish, 'Source Sans Pro';
+                white-space: nowrap;
+                flex-shrink: 0;
+              }
+            }
+            .card-1-menu-sec-2 {
+              padding: 0.2rem 0rem 0.1rem 0.15rem;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              flex-shrink: 0;
+              box-sizing: border-box;
+
+              .group {
+                flex-shrink: 0;
+                margin: 0rem 0.95rem 0.025rem 0rem;
+                width: 2.1rem;
+                height: 1.875rem;
+                position: relative;
+                object-fit: contain;
+                vertical-align: top;
+              }
+              .amount {
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.255;
+                color: #5a5a5d;
+                font-family: Mulish, 'Source Sans Pro';
+                white-space: nowrap;
+                flex-shrink: 0;
+              }
+            }
+            .card-1-menu-sec-3 {
+              display: flex;
+              align-items: center;
+              flex-shrink: 0;
+              box-sizing: border-box;
+              padding: 0.2rem 0rem 0.1rem 0.375rem;
+              height: 100%;
+
+              .location-img {
+                margin: 0rem 1.175rem 0.025rem 0rem;
+                width: 1.65rem;
+                height: 2.0248rem;
+                object-fit: contain;
+                vertical-align: top;
+                flex-shrink: 0;
+              }
+              .location {
+                font-family: Mulish, 'Source Sans Pro';
+                white-space: nowrap;
+                flex-shrink: 0;
+                font-size: 1.6rem;
+                font-weight: 400;
+                line-height: 1.255;
+                color: #5a5a5d;
+              }
+            }
+          }
+          .geo-location {
+            flex-direction: column;
+            border-radius: 0.8rem;
+            flex-shrink: 0;
+            width: 100%;
+            display: flex;
+
+            .geo-location-title {
+              color: #131318;
+              font-family: Mulish, 'Source Sans Pro';
+              white-space: nowrap;
+              flex-shrink: 0;
+              margin-bottom: 1.5rem;
+              font-size: 2.4rem;
+              font-weight: 800;
+              line-height: 1.255;
+            }
+            .geo-location-description {
+              font-weight: 400;
+              line-height: 1.625;
+              color: #5a5a5d;
+              font-family: Mulish, 'Source Sans Pro';
+              flex-shrink: 0;
+              margin-bottom: 1.6rem;
+              max-width: 45.1rem;
+              font-size: 1.6rem;
+            }
+            .price {
+              margin-bottom: 2.3rem;
+              font-size: 2rem;
+              font-weight: 800;
+              line-height: 1.255;
+              color: #ff5400;
+              font-family: Mulish, 'Source Sans Pro';
+              white-space: nowrap;
+              flex-shrink: 0;
+            }
+            .group-8 {
+              width: 15rem;
+              height: 5.2rem;
+              border-radius: 0.8rem;
+              flex-shrink: 0;
+
+              .group-7 {
+                border-radius: 0.8rem;
+                width: 100%;
+                height: 100%;
+
+                .button {
+                  white-space: nowrap;
+                  background-color: #ff5400;
+                  width: 100%;
+                  font-size: 2rem;
+                  color: #ffffff;
+                  align-items: center;
+                  line-height: 1.255;
+                  font-family: Mulish, 'Source Sans Pro';
+                  display: flex;
+                  justify-content: center;
+                  border-radius: 0.8rem;
+                  border: none;
+                  text-align: center;
+                  font-weight: 800;
+                  height: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .group-8a {
+      margin: 0rem 48.8rem 10rem 48rem;
+      width: calc(100% - 96.8rem);
+      height: 5.2rem;
+      border-radius: 0.8rem;
+      flex-shrink: 0;
+
+      .group-7a {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.8rem;
+
+        .button {
+          width: 100%;
+          font-family: Mulish, 'Source Sans Pro';
+          text-align: center;
+          line-height: 1.255;
+          color: #ffffff;
+          align-items: center;
+          border-radius: 0.8rem;
+          border: none;
+          height: 100%;
+          white-space: nowrap;
+          display: flex;
+          background-color: #ff5400;
+          font-size: 2rem;
+          font-weight: 800;
+          justify-content: center;
+        }
+      }
+    }
+    /* Part 5 End */
+    
+    /* Part 6 Start */
+    .section-6 {
+      margin: 0rem 0.752rem 0rem 0rem;
+      width: calc(100% - 0.7517rem);
+      height: 42.2rem;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+
+      .form {
+        flex-direction: column;
+        border: solid 0.1rem #ff5400;
+        border-radius: 1.6rem;
+        height: 100%;
+        display: flex;
+        padding: 4rem 4.1rem 4rem 4rem;
+        width: 47.4rem;
+        align-items: center;
+        flex-shrink: 0;
+        margin-right: 2.4rem;
+        box-sizing: border-box;
+
+        .left-side {
+          margin: 0rem 5.6rem 2.4rem 0rem;
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 0;
+
+          .form-title {
+            margin-bottom: 1.5rem;
+            font-size: 2.4rem;
+            font-weight: 800;
+            line-height: 1.255;
+            color: #131318;
+            font-family: Mulish, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .form-description {
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.625;
+            color: #5a5a5d;
+            font-family: Mulish, 'Source Sans Pro';
+            flex-shrink: 0;
+            max-width: 33.7rem;
+          }
+        }
+        .line {
+          width: 100%;
+          height: 0.1rem;
+          background-color: rgba(19, 19, 24, 0.1000000015);
+          flex-shrink: 0;
+          margin-bottom: 2.3rem;
+        }
+        .input {
+          margin-bottom: 1.6rem;
+          width: 100%;
+          height: 5.2rem;
+          border-radius: 0.8rem;
+          flex-shrink: 0;
+
+          .input-1 {
+            border-radius: 0.8rem;
+            padding: 1.6rem 2rem 1.5rem 2rem;
+            width: 100%;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: rgba(19, 19, 24, 0.3000000119);
+            background-color: rgba(19, 19, 24, 0.0500000007);
+            box-sizing: border-box;
+            height: 100%;
+            line-height: 1.255;
+            font-family: Mulish, 'Source Sans Pro';
+            white-space: nowrap;
+          }
+        }
+        .button-long {
+          justify-content: center;
+          line-height: 1.255;
+          white-space: nowrap;
+          font-size: 2rem;
+          display: flex;
+          width: 100%;
+          text-align: center;
+          align-items: center;
+          height: 5.2rem;
+          font-weight: 800;
+          background-color: #ff5400;
+          border-radius: 0.8rem;
+          border: none;
+          flex-shrink: 0;
+          color: #ffffff;
+          font-family: Mulish, 'Source Sans Pro';
+        }
+      }
+      .right-side {
+        position: relative;
+        flex-shrink: 0;
+        width: 67.2483rem;
+        height: 100%;
+
+        .bg-image {
+          object-fit: cover;
+          vertical-align: top;
+          border-radius: 1.6rem;
+          width: 67.2rem;
+          height: 42.2rem;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .texture {
+          box-sizing: border-box;
+          padding: 5.626rem 4.466rem 5.626rem 5.682rem;
+          left: 32.7rem;
+          top: 20rem;
+          background-color: #ff5400;
+          border-radius: 1.6rem;
+          width: 33rem;
+          height: 15rem;
+          position: absolute;
+          rotate: -20deg;
+
+          .text {
+            width: 100%;
+            height: 5.1862rem;
+            position: absolute;
+
+            .text-1 {
+              left: 4.8557rem;
+              top: 0;
+              text-align: center;
+              line-height: 1.255;
+              font-family: Mulish, 'Source Sans Pro';
+              white-space: nowrap;
+              width: 11.9rem;
+              position: relative;
+              font-size: 2.4rem;
+              font-weight: 400;
+              color: #ffffff;
+              height: 3.1rem;
+            }
+            .text-2 {
+              color: #ffffff;
+              font-family: Mulish, 'Source Sans Pro';
+              white-space: nowrap;
+              height: 4.1rem;
+              left: 0;
+              top: 1.0862rem;
+              font-size: 3.2rem;
+              padding-top: 2rem;
+              font-weight: 800;
+              line-height: 1.255;
+              width: 24.4rem;
+              position: absolute;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* Part 6 End */
+
+  /* Footer Start */
+  .footer {
+    background-color: rgba(19, 19, 24, 0.0500000007);
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 11rem 6rem 10.9rem 6rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .website-name-1 {
+      margin: 0rem 54.733rem 1.4rem 54rem;
+      width: calc(100% - 108.7327rem);
+      display: flex;
+      align-items: flex-start;
+      flex-shrink: 0;
+
+      .website-icon-2 {
+        margin-right: 1.6rem;
+        width: 4.6673rem;
+        height: 4rem;
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .mantra-travel {
+        white-space: nowrap;
+        display: flex;
+        align-items: baseline;
+        flex-shrink: 0;
+        margin-top: 0rem;
+        font-family: Mulish, 'Source Sans Pro';
+        line-height: 1.2549999952;
+        color: #121218;
+        font-size: 3.2rem;
+        font-weight: 800;
+
+        .mantra-travel-text1 {
+          line-height: 1.255;
+          color: #121218;
+          font-family: Mulish, 'Source Sans Pro';
+          font-size: 3.2rem;
+          font-weight: 800;
+        }
+        .mantra-travel-text2 {
+          font-weight: 800;
+          line-height: 1.255;
+          color: #ff5400;
+          font-family: Mulish, 'Source Sans Pro';
+          font-size: 3.2rem;
+        }
+      }
+    }
+    .mantra-travel-description {
+      color: #5a5a5d;
+      font-family: Mulish, 'Source Sans Pro';
+      flex-shrink: 0;
+      font-size: 1.6rem;
+      max-width: 75rem;
+      text-align: center;
+      font-weight: 400;
+      line-height: 1.625;
+      margin: 0rem 0.1rem 3.2rem 0rem;
+    }
+    .social-image {
+      object-fit: contain;
+      vertical-align: top;
+      flex-shrink: 0;
+      margin-bottom: 5rem;
+      width: 132rem;
+      height: 2.4rem;
+      position: relative;
+    }
+    .line-2 {
+      flex-shrink: 0;
+      margin: 0rem 22.4rem 4.9rem 22.4rem;
+      width: calc(100% - 44.8rem);
+      height: 0.1rem;
+      background-color: rgba(19, 19, 24, 0.1000000015);
+    }
+    .all-rights-reserved {
+      flex-shrink: 0;
+      margin-right: 0.1rem;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1.2125;
+      color: #131318;
+      font-family: Inter, 'Source Sans Pro';
+      white-space: nowrap;
+    }
+  }
+  /* Footer End */
+}
+
+
